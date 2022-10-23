@@ -1,0 +1,113 @@
+*{
+    background-color: #171717;
+    color: white;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile{
+    border-radius: 100%;
+    width: 65%;
+}
+.left{
+    text-align: left;
+}
+
+.btn{
+    padding: 1rem;
+}
+.btn-primary{
+    background-color: #27AE60;
+    border: none;
+}
+
+.about-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about-col{
+    padding: 2rem;
+}
+
+.whatido-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.whatido-col{
+    padding: 2rem;
+}
+.skills-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #212121;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+input{
+    padding: 1rem;
+    width: 40%;
+}
+.but{
+    margin-top: 3rem;
+}
+
+.grey{
+    color: #535353;
+}
+.whatido-col{
+    background-color: #212121;
+    width: 20%;
+    word-wrap: break-word;
+}
+.grey-bg{
+    background-color: #212121;
+}
+.skills-row{
+    background-color: #212121;
+}
+.skills-col{
+    background-color: #212121;
+}
+.green{
+    color: #27AE60;
+}
+
